@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lightbulb")(type "KiCad")(uri "C:/Users/aakas/Downloads/lightbulb")(options "")(descr ""))
+)
