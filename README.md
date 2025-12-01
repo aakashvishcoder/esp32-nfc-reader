@@ -15,15 +15,16 @@ My very own prototype of an NFC Reader using an ESP32 microcontroller.
 Plug in a USB cable into the receptacle! Install the ESP32IDE for configuration of the firmware.
 
 # Images
-<img width="311" height="595" alt="Screenshot 2025-11-30 002322" src="https://github.com/user-attachments/assets/a23eaea0-3d0e-4660-864a-02fcb65eb087" />
-<img width="315" height="604" alt="Screenshot 2025-11-30 002317" src="https://github.com/user-attachments/assets/ac182631-f975-4009-b49d-b56192b7ba57" />
-<img width="441" height="833" alt="Screenshot 2025-11-30 002309" src="https://github.com/user-attachments/assets/a25a5959-d3ae-4063-b6d0-ba8cb55c8eaa" />
-<img width="1160" height="801" alt="Screenshot 2025-11-30 002255" src="https://github.com/user-attachments/assets/b453d46d-b063-4df9-aa4d-9c81cd1daf79" />
+
+<img width="299" height="552" alt="Screenshot 2025-11-30 204253" src="https://github.com/user-attachments/assets/e0dee442-2709-4721-a8d0-28f23494c02d" />
+<img width="291" height="567" alt="Screenshot 2025-11-30 204249" src="https://github.com/user-attachments/assets/ff8627b0-b299-40c2-93af-86cb28b76f20" />
+<img width="445" height="840" alt="Screenshot 2025-11-30 204234" src="https://github.com/user-attachments/assets/ff2b791b-b9da-4f78-973b-078361ccc2d9" />
+<img width="1149" height="797" alt="Screenshot 2025-11-30 204221" src="https://github.com/user-attachments/assets/87c449f0-16c2-4bc1-9d86-435da8c773c0" />
 
 # BOM
 | Reference        | Qty | Value     | DNP | Exclude from BOM | Exclude from Board | Footprint                                                                 | Datasheet                                                                 |
 |------------------|-----|-----------|-----|------------------|--------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| AE1              | 1   | Antenna   |     |                  |                    | Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical                | ~                                                                         |
+| AE2              | 1   | Antenna   |     |                  |                    | RF_Antenna:Coilcraft_MA5532-AE_RFID                                       | ~                                                                         |
 | BZ1              | 1   | Buzzer    |     |                  |                    | Buzzer_Beeper:Buzzer_15x7.5RM7.6                                          | ~                                                                         |
 | C1,C4,C6,C11     | 4   | 0.1uF     |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         |
 | C2               | 1   | 47uF      |     |                  |                    | Capacitor_SMD:C_0402_1005Metric                                           | ~                                                                         |
