@@ -1,6 +1,6 @@
 # ESP32 NFC Reader
 
-My very own prototype of an NFC Reader using an ESP32 microcontroller.
+This is my very own prototype of an NFC Reader, built using the ESP32 microcontroller! It’s a compact, wireless module designed to read and interact with NFC tags and cards. This board has several unique features and components (as listed below), and demonstrates how the ESP32 can be paired with an NFC front‑end chip to enable secure communication.
 
 # Features:
 - ESP32 microcontroller
